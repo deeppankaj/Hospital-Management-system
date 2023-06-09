@@ -1,0 +1,231 @@
+/* ###################### Global css ##################### */
+:root {
+  --primary-color: #396cf0;
+  --primary-soft-color: #396df025;
+}
+
+
+/* ###################### Navbar ##################### */
+.header-nav {
+  height: 60px;
+  z-index: 99;
+  background: white;
+}
+
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+
+nav .nav-option {
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+nav .nav-option:hover {
+  color: #396cf0;
+}
+
+nav .nav-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+nav .nav-btn {
+  background: #396cf0;
+  color: white;
+  border-radius: 200px;
+  padding: 1px;
+}
+
+nav .nav-btn:hover {
+  background: #305ccc;
+}
+
+nav .user-menu {
+  border: 1px solid white;
+}
+
+/* ###################### Find doctor section ##################### */
+.hero {
+  padding-top: 2vh;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 4vh;
+  }
+}
+
+.hero .search-form {
+  width: fit-content;
+}
+
+.hero .search-form input {
+  border: none;
+  width: 70%;
+}
+
+.search-form input:focus {
+  border: none;
+}
+
+/* ###################### Find doctor section ##################### */
+.avatar.avatar-client {
+  max-height: 25px;
+}
+
+.title {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-weight: 500 !important;
+}
+
+.explore-section {
+  padding-top: 5vw;
+}
+
+.explore-section .link {
+  color: #396cf0;
+}
+
+.explore-section .explore-icon {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  color: #305ccc;
+  background: #396df025;
+  border-radius: 100%;
+}
+
+.badge,
+.about .btn {
+  background: #396df025;
+  color: #305ccc;
+  padding: 7px;
+}
+
+.explore-section .about {
+  margin-top: 80px;
+}
+
+.cta-section {
+  background: url("https://shreethemes.in/doctris/layouts/assets/images/cta.jpg");
+  padding: 80px 0px;
+}
+
+.cta-icon {
+  color: #396cf0;
+  font-size: 70px;
+  margin-top: -15px;
+}
+
+.cta-card {
+  cursor: pointer;
+}
+
+.cta-card:hover {
+  background-color: #396cf0;
+  color: white !important;
+  transition: all 0.2s ease-in;
+}
+
+.cta-card:hover .cta-icon {
+  color: white;
+}
+
+.cta-para {
+  font-size: 14px;
+}
+
+.cta-card:hover .cta-para {
+  color: white !important;
+}
+
+.big-icon {
+  font-size: 6rem;
+  color: rgba(128, 128, 128, 0.103);
+  position: absolute;
+  right: 40px;
+  top: -20px;
+}
+
+.team-person img:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+footer {
+  background: #202942;
+  padding: 60px 0 24px;
+  position: relative;
+  color: #adb5bd
+}
+
+footer .text-foot {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+footer .footer-head {
+  font-size: 18px !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff
+}
+
+footer .footer-list {
+  margin-bottom: 0
+}
+
+footer .footer-list li {
+  margin-bottom: 10px
+}
+
+footer .footer-list li a {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease
+}
+
+footer .footer-list li a:hover {
+  color: #e6e8ea
+}
+
+footer .footer-list li:last-child {
+  margin-bottom: 0
+}
+
+footer .footer-bar,
+footer.footer-bar {
+  border-top: 1px solid #2a3657
+}
+
+.bg-footer-color {
+  background-color: #fff !important
+}
+
+.social-icon li {
+  color: #212529;
+  border: 1px solid #212529;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  line-height: 30px;
+  text-align: center;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  overflow: hidden;
+  position: relative;
+  border-radius: 80%;
+}
+
+.social-icon.footer-social li {
+  color: #adb5bd;
+  border-color: #283453
+}

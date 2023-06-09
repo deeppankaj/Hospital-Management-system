@@ -1,0 +1,29 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.Scrollable-content::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.Scrollable-content {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+.Scrollable-content{
+    max-height: 500px;
+    overflow-y: Scroll;
+}
+/* ############# Date Picker ############### */
+.simplebar-track.simplebar-vertical {
+    width: 8px !important
+}
+
+
+.simplebar-track.simplebar-vertical .simplebar-scrollbar:before {
+    width: 4px !important;
+    background: #adb5bd !important
+}
+.bg-red{
+    background: red;
+}

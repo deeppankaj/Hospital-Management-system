@@ -1,0 +1,10 @@
+export { default as Dashboard } from './Dashboard';
+export { default as Appointment } from './Appointment';
+export { default as Shedule } from './Shedule';
+export { default as Invoices } from './Invoices';
+export { default as Messages } from './Messages';
+export { default as DocProfile } from './DocProfile';
+export { default as DocfileSetting } from './DocProfileSetting';
+export { default as Patients } from './Patients';
+export { default as PatientReview } from './PatientReview';
+export { default as Chat } from './Chat';

@@ -1,0 +1,37 @@
+.sidebar-nav {
+  padding: 15px 0;
+}
+
+.sidebar-nav > .navbar-item {
+  padding: 6.5px 15px;
+}
+
+.sidebar-nav > .navbar-item .navbar-link {
+  color: #212529 !important;
+  font-size: 18px;
+  font-weight: 550;
+  word-spacing: 8px;
+}
+
+.sidebar-nav > .navbar-item .navbar-link .navbar-icon {
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+.sidebar-nav > .navbar-item.active .navbar-link,
+.sidebar-nav > .navbar-item:hover .navbar-link {
+  color: #396cf0 !important;
+}
+.shortcut .link {
+  color: #396cf0;
+  font-size: 16px;
+}
+.shortcut .icon {
+  font-size: 35px;
+  background: #396df011;
+  color: #396cf0;
+  padding: 6px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
